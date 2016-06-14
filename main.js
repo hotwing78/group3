@@ -8,18 +8,20 @@ var KnightsNinjas = {
   KnightsNinjas.events();
 },
 events: function() {
-function Combatants(Name,Attack,Health,Defence) {
+
+ function Combatants(Name,Attack,Health,Defence){
   this.Name = Name;
   this.Attack= Attack;
   this.Health= Health;
   this.Defence=Defence;
-},
+}
 
 var knights = {
   Name:"Knights",
   Attack:25,
   Health:100,
   Defence:10,
+
 },
 var calvary = {
   Name:"Calvary",
@@ -63,7 +65,7 @@ var Samauri = {
 }
 var Monk = {
   Name:"Monk",
-  Attack:6
+  Attack:6,
   Health:100,
   Defence:0,
 }
