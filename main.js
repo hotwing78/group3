@@ -1,4 +1,9 @@
+function Knights (opts)
+
+
+
 var Knights = {
+
   name:"Knights",
 
 }
