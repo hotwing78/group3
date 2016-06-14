@@ -1,7 +1,7 @@
 $(document).ready(function () {
 KnightsNinjas.init();
 
-}
+})
 
 var KnightsNinjas = {
   init: function() {
@@ -15,39 +15,39 @@ function Combatants(Name,Attack,Health,Defence) {
   this.Defence=Defence;
 },
 
-var Knights = {
+var knights = {
   Name:"Knights",
   Attack:25,
   Health:100,
   Defence:10,
 },
-var Calvary = {
+var calvary = {
   Name:"Calvary",
   Attack:15,
   Health:100,
   Defence:5,
 }
-var Squire = {
+var squire = {
   Name:"Squire",
   Attack:12,
   Health:100,
   Defence:0,
 
 }
-var Peasant = {
+var peasant = {
   Name:"Peasant",
   Attack:6,
   Health:100,
   Defence:0,
 }
-var Shogon = {
+var shogon = {
   Name:"Shogun",
   Attack:25,
   Health:100,
   Defence:0,
 
 }
-var Assasin = {
+var assasin = {
   Name:"Assasin",
   Attack:15,
   Health:100,
