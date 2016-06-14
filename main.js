@@ -7,7 +7,8 @@ var KnightsNinjas = {
   KnightsNinjas.events();
 },
 events: function() {
-function Combatants(Name,Attack,Health,Defence) {
+
+ Combatants: function(Name,Attack,Health,Defence) {
   this.Name = Name;
   this.Attack= Attack;
   this.Health= Health;
