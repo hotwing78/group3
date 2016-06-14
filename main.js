@@ -3,14 +3,16 @@ KnightsNinjas.init();
 }
 
 var KnightsNinjas = {
-
-
+  init: function() {
+  KnightsNinjas.events();
+},
+events: function() {
 function Combatants(Name,Attack,Health,Defence) {
   this.Name = Name;
   this.Attack= Attack;
   this.Health= Health;
   this.Defence=Defence;
-}
+},
 
 var Knights = {
   Name:"Knights",
@@ -63,5 +65,6 @@ var Monk = {
   Attack:6
   Health:100,
   Defence:0,
+}
 }
 }
