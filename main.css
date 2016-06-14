@@ -1,29 +1,24 @@
-header{
+header {
   text-align: center;
-  background-color: gray;
-}
+  background-color: gray; }
 
 .main-container {
   width: 100%;
   height: 500px;
-  border: 1px solid black;
-  .ninjas {
+  border: 1px solid black; }
+  .main-container .ninjas {
     float: right;
     display: inline-block;
     width: 49%;
     height: 100%;
-    background-color: red;
-  }
-  .knights {
+    background-color: red; }
+  .main-container .knights {
     display: inline-block;
     width: 49%;
     height: 100%;
-    background-color: blue;
+    background-color: blue; }
 
-  }
-}
 .score {
   text-align: center;
   background-color: yellow;
-  width: 100%;
-}
+  width: 100%; }

@@ -1,6 +1,7 @@
 $(document).ready(function () {
 KnightsNinjas.init();
-}
+
+})
 
 var KnightsNinjas = {
   init: function() {
@@ -8,19 +9,19 @@ var KnightsNinjas = {
 },
 events: function() {
 
- Combatants: function(Name,Attack,Health,Defence) {
+ function Combatants(Name,Attack,Health,Defence){
   this.Name = Name;
   this.Attack= Attack;
   this.Health= Health;
   this.Defence=Defence;
-},
+}
 
 var Knights = {
   Name:"Knights",
   Attack:25,
   Health:100,
   Defence:10,
-},
+}
 var Calvary = {
   Name:"Calvary",
   Attack:15,
@@ -63,7 +64,7 @@ var Samauri = {
 }
 var Monk = {
   Name:"Monk",
-  Attack:6
+  Attack:6,
   Health:100,
   Defence:0,
 }
