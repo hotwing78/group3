@@ -1,16 +1,16 @@
 {
-  "name": "jshw9",
-  "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "node-sass -w styles.scss styles.css",
-    "start": "npm run sass"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "jquery": "^3.0.0"
-  }
+    "name": "jshw9",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sass": "node-sass -w styles.scss styles.css",
+        "start": "npm run sass"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "jquery": "^3.0.0"
+    }
 }
