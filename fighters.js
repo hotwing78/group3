@@ -5,22 +5,23 @@ function Combatant(name, attack, health, defense) {
     this.defense = defense;
 }
 
-Combantant.prototype.attack = function{
-  console.log("CHOP....SLASH!! attacked with:")
+Combantant.prototype.attack = function {
+    console.log("CHOP....SLASH!! attacked with:")
 }
 
-var knight ={
-  
+var knight = {
+
 }
 
 var ninja = {
 
 }
-function Knight(opts){
-    this.name = opts && opts.name ? opts.name: 'Sir Random';
+
+function Knight(opts) {
+    this.name = opts && opts.name ? opts.name : 'Sir Random';
 
 }
 
-function Ninja(opts){
-    this.name = opts && opts.name ? opts.name: 'No one'
+function Ninja(opts) {
+    this.name = opts && opts.name ? opts.name : 'No one'
 }
