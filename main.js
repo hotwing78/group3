@@ -2,34 +2,13 @@ $(document).ready(function{
 
 });
 
-var Knights = {
-  name:"Knights",
+   function Character(){
+     
+   }
+    function Knights(opts){
 
-}
-var Calvary = {
-  name:"Calvary",
+    }
 
-}
-var Squire = {
-  name:"Squire",
+    function Ninjas(opts){
 
-}
-var Peasant = {
-  name:"Peasant",
-}
-var knights = {
-  name:"Shogun",
-
-}
-var knights = {
-  name:"Assasin",
-
-}
-var knights = {
-  name:"Samauri",
-
-}
-var knights = {
-  name:"Monk",
-
-}
+    }
