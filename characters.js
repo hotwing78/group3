@@ -1,13 +1,13 @@
-$(document).ready(function () {
-KnightsNinjas.init();
-
-})
-
-var KnightsNinjas = {
-  init: function() {
-  KnightsNinjas.events();
-},
-events: function() {
+// $(document).ready(function () {
+// KnightsNinjas.init();
+//
+// })
+//
+// var KnightsNinjas = {
+//   init: function() {
+// KnightsNinjas.events();
+// },
+//events: function() {
 function Combatant(opts){
   this.Name =opts && opts.Name ? opts.Name : 'Default';
   this.Attack= console.log("I attacked you!!");
@@ -73,5 +73,5 @@ var peasant=new Combatant(peasant);
 var squire=new Combatant(squire);
 var calvary=new Combatant(calvary);
 var knight=new Combatant(knight);
-}
-}
+// }
+// }
