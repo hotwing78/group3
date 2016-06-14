@@ -1,5 +1,6 @@
 $(document).ready(function () {
 KnightsNinjas.init();
+
 }
 
 var KnightsNinjas = {
