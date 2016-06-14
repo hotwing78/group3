@@ -2,8 +2,6 @@ $(document).ready(function{
 
 });
 
-var 
-
 var Knights = {
   name:"Knights",
 
