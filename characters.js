@@ -12,7 +12,11 @@ function Knight(opts){
   this.Name =opts && opts.Name ? opts.Name : 'Default';
   this.Attack= function(enemy) {
     console.log(`KYA!!. ${this.Name} beat ${enemy.Name} for ${this.Damage}`);
-  enemy.health -=this.Damage;
+  console.log(enemy.Health =enemy.Health -this.Damage);
+  if(enemy.Health <= 0){
+      console.log("DEATH!!!",);
+      $(enemy).remove();
+  };
   };
   this.Health= opts && opts.Health ? opts.Health: 100;
   console.log(this.Name);
@@ -22,11 +26,7 @@ function Ninja(opts){
   this.Name =opts && opts.Name ? opts.Name : 'Default';
   this.Attack= function(enemy) {
     console.log(`KYA!!. ${this.Name} beat ${enemy.Name}`)
-    return (enemy.Health =enemy.Health - this.Damage);
-     if (enemy.Health<=0){
-       console.log(`${enemy.Name} is dead!!!!`);
-     };
-    };
+    return (enemy.Health =enemy.Health -= this.Damage);
   };
   this.Health= opts && opts.Health ? opts.Health: 100;
   console.log(this.Name);
