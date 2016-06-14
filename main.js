@@ -1,31 +1,67 @@
-var Knights = {
-  name:"Knights",
-
+$(document).ready(function () {
+KnightsNinjas.init();
 }
-var Calvary = {
-  name:"Calvary",
 
+var KnightsNinjas = {
+
+
+function Combatants(Name,Attack,Health,Defence) {
+  this.Name = Name;
+  this.Attack= Attack;
+  this.Health= Health;
+  this.Defence=Defence;
+}
+
+var Knights = {
+  Name:"Knights",
+  Attack:25,
+  Health:100,
+  Defence:10,
+},
+var Calvary = {
+  Name:"Calvary",
+  Attack:15,
+  Health:100,
+  Defence:5,
 }
 var Squire = {
-  name:"Squire",
+  Name:"Squire",
+  Attack:12,
+  Health:100,
+  Defence:0,
 
 }
 var Peasant = {
-  name:"Peasant",
+  Name:"Peasant",
+  Attack:6,
+  Health:100,
+  Defence:0,
 }
-var knights = {
-  name:"Shogun",
+var Shogon = {
+  Name:"Shogun",
+  Attack:25,
+  Health:100,
+  Defence:0,
 
 }
-var knights = {
-  name:"Assasin",
+var Assasin = {
+  Name:"Assasin",
+  Attack:15,
+  Health:100,
+  Defence:0,
 
 }
-var knights = {
-  name:"Samauri",
+var Samauri = {
+  Name:"Samauri",
+  Attack:12,
+  Health:100,
+  Defence:0,
 
 }
-var knights = {
-  name:"Monk",
-
+var Monk = {
+  Name:"Monk",
+  Attack:6
+  Health:100,
+  Defence:0,
+}
 }
