@@ -9,11 +9,16 @@ body  {
   background-position: center;
 }
 .main-container {
-  width: 100%;
+  border: 2px solid black;
+  width: 67%;
   height: 500px;
-  border: 1px solid black; }
-  .main-container .knightsvsninjas {
-    background-image: url("dojo.png");
+  margin-left: 15%;
+   }
+
+
+  .knightsvsninjas {
+    background-image: url("images/dojo.png");
+    transform: scaleX(-1);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 87%;
@@ -79,7 +84,7 @@ padding-bottom: 11%;
   color: white;
   margin-top: 17%;
   font-size: 92px;
-  
+
 }
 
 

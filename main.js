@@ -54,3 +54,11 @@ $('#Calvary').on('click', function(e) {
         killEnemy(randEnemy);
     }
 });
+
+$('.insertCoin').on('click', function(event){
+   console.log("insert screen removed")
+   event.preventDefault();
+   $('.insertCoin').addClass('hidden');
+   $('.introScreen').addClass('hidden');
+   $('.main-container').removeClass('hidden');
+ });
