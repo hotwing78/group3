@@ -47,7 +47,7 @@ padding-bottom: 11%;
 
 
 .introScreen {
-  background-image: url("knightsvsninjas.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) ), url('images/knightsvsninjas.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 101%;
@@ -65,6 +65,23 @@ padding-bottom: 11%;
   margin-top: 16px;
   height: 200px;
 }
+
+.insertCoin{
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  color: white;
+  margin-top: 17%;
+  font-size: 92px;
+}
+.insertCoin2{
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  color: white;
+  margin-top: 17%;
+  font-size: 92px;
+  
+}
+
 
 
 @-webkit-keyframes{}
