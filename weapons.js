@@ -1,5 +1,5 @@
 function Weapon(opts) {
-  this.name = opts ? opts.name : 'bare hands';
+  this.name = opts ? opts.name : 'bear hands';
   this.damage = opts ? opts.damage : Math.floor(Math.random() * 10);
 }
 

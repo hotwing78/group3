@@ -22,3 +22,7 @@ header {
   text-align: center;
   background-color: yellow;
   width: 100%; }
+
+.hidden {
+  display: none;
+}
