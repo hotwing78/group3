@@ -19,15 +19,15 @@ $('#Knight').on('click', function(e) {
     var randEnemy;
 
     if (randNum <= 3) {
-        randEnemy = Knight.samurai;
+        randEnemy = samurai;
     } else if (randNum >= 4 && randNum <= 6) {
-        randEnemy = Knight.shogun;
+        randEnemy = shogun;
     } else if (randNum >= 7) {
-        randEnemy = Knight.monk;
+        randEnemy = assasin;
     }
 
     if (randEnemy.Health > 0) {
-        knight.Attack(randEnemy);
+        Combatant.attackMain(randEnemy);
     } else {
         killEnemy(randEnemy);
     }
@@ -49,7 +49,7 @@ $('#Calvary').on('click', function(e) {
     }
 
     if (randEnemy.Health > 0) {
-        calvary.Attack(randEnemy);
+        calvary.attackMain(randEnemy);
     } else {
         killEnemy(randEnemy);
     }
