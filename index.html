@@ -14,10 +14,11 @@
         <h1></h1>
     </header>
     <div class="main-container hidden">
-        <div class="knightsvsninjas">
-            <img class="knight" src="images/stationedknight.gif" alt="" />
-            <img class="ninja" src="ninja.gif" alt="" />
-        </div>
+      <div class="knightsvsninjas">
+         <div id="hitMessage" style="color:white">HIT MESSAGE</div>
+        <img class = "knight" src="images/stationedknight.gif" alt="" />
+        <img class = "ninja" src="images/ninja.gif" alt="" />
+      </div>
     </div>
 
     <div class="introScreen">
@@ -27,16 +28,17 @@
         <div id="statsContainer">
             <ul id="stats">
                 <img class="knight" src="images/stationedknight.gif" alt="" />
-                <li id="Name">name: </li>
-                <li id="Health">health: </li>
-                <li id="Attack">attack: </li>
-                <li id="Evade">evade: </li>
-            </ul>
-            <button id="mainAttack">Main Attack</button>
-            <button id="secondaryAttack">Light Attack</button>
-            <button id="dodge">Dodge</button>
-        </div>
-    </div>
+
+                <li id="Name">name</li>
+                <li id="Health">health</li>
+                <li id="Attack">attack</li>
+                <li id="Evade">evade</li>
+              </ul>
+              <button id="mainAttack">Heavy Attack</button>
+              <button id="lightAttack">Light Attack</button>
+              <button id="dodge">dodge</button>
+            </div>
+          </div>
 
     <script src="node_modules/jquery/dist/jquery.js" charset="utf-8"></script>
     <script src="weapons.js" charset="utf-8"></script>

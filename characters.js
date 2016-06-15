@@ -14,7 +14,7 @@ class Combatant {
 
         console.log(swing, dodge)
         if (swing >= dodge) {
-            console.log(enemy.Health -= this.Damage - Math.floor(Math.random() * this.Damage));
+          enemy.Health -= this.Damage - Math.floor(Math.random() * this.Damage);
             // console.log(this.Health -= enemy.Damage)
         } else {
             console.log("FUUUUUUUUUUUUUUUUUUUUUUUCK")
@@ -41,6 +41,7 @@ class Combatant {
         }
     }
 }
+
 
 class Europe extends Combatant {
     constructor(opts) {
