@@ -1,3 +1,16 @@
+$('#mainAttack').on('click',function(){
+  knight.attackMain(shogun);
+});
+$('#lightAttack').on('click',function(){
+  knight.attackSecondary(shogun)
+})
+$('#dodge').on('click',function(){
+  knight.dodge(shogun)
+})
+
+
+
+
 // var goodGuy;
 // $('.knightGuys').on('click', function(e) {
 //   e.preventDefault();

@@ -14,7 +14,7 @@ class Combatant {
 
         console.log(swing, dodge)
         if (swing >= dodge) {
-            console.log(enemy.Health -= this.Damage - Math.floor(Math.random() * this.Damage));
+          enemy.Health -= this.Damage - Math.floor(Math.random() * this.Damage);
             // console.log(this.Health -= enemy.Damage)
         } else {
             console.log("FUUUUUUUUUUUUUUUUUUUUUUUCK")
@@ -23,13 +23,6 @@ class Combatant {
         // else if(`${this.Health}`<=0){console.log(`${this.Name} is dead!!!`)}
     }
     attackSecondary(enemy) {
-<<<<<<< HEAD
-      console.log(enemy.Health -= Math.floor(this.Damage * Math.random()))
-      if(enemy.Health <= 0){ console.log("UUCK")  }
-  }
-
-  }
-=======
         console.log(enemy.Health -= Math.floor(this.Damage * Math.random()))
         if (enemy.Health <= 0) {
             console.log("UUCK")
@@ -48,7 +41,7 @@ class Combatant {
         }
     }
 }
->>>>>>> da36774eadba8c89a8b45fdcbeae496df0b549f3
+
 
 class Europe extends Combatant {
     constructor(opts) {
