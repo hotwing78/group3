@@ -13,9 +13,9 @@ class Combatant {
 }
 
 
-var samurai = new Combatant({ Name:"Samurai", Damage:12,Health:100,});
-var assasin= new Combatant({ Name:"Assasin", Damage:15,Health:100,});
-var shogun= new Combatant({ Name:"Shogun", Damage:25, Health:100,});
-var squire=new Combatant({Name:"Squire",Damage:12,Health:100,});
-var calvary=new Combatant({ Name:"Calvary", Damage:15, Health:100,});
-var knight=new Combatant({ Name:"Knight", Damage:25, Health:100,})
+var samurai = new Combatant({ Name:"Samurai", Damage:12, Health:100,});
+var assasin = new Combatant({ Name:"Assasin", Damage:15, Health:100,});
+var shogun = new Combatant({ Name:"Shogun", Damage:25, Health:100,});
+var squire = new Combatant({ Name:"Squire", Damage:12, Health:100,});
+var calvary = new Combatant({ Name:"Calvary", Damage:15, Health:100,});
+var knight = new Combatant({ Name:"Knight", Damage:25, Health:100,})
