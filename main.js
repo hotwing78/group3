@@ -16,11 +16,11 @@ $('#Knight').on('click', function(e) {
     var randEnemy;
 
     if (randNum <= 3) {
-        randEnemy = Knight.samurai;
+        randEnemy = Japan.samurai;
     } else if (randNum >= 4 && randNum <= 6) {
-        randEnemy = Knight.shogun;
+        randEnemy = Japan.shogun;
     } else if (randNum >= 7) {
-        randEnemy = Knight.monk;
+        randEnemy = Japan.assasin;
     }
 
     if (randEnemy.Health > 0) {
