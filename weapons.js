@@ -8,8 +8,9 @@ var katana = new Weapon({name: "Katana", damage: Math.floor(Math.random() * 10)}
 
 
 
+
 class SpecialAttacks {
-  
+
 }
 
 // var joker = new Villain({weapon: bomb});
