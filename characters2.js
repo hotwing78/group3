@@ -18,7 +18,7 @@ var knight ={
 
 var calvary = {
   Name:"Calvary",
-  Damage:15,
+  Damage:Math.floor(Math.random() * 15),
   Health:100,
 }
 
