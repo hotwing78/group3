@@ -25,6 +25,7 @@ class Combatant {
       console.log(enemy.Health -= Math.floor(this.Damage * Math.random()))
       if(enemy.Health <= 0){ console.log("UUCK")  }
   }
+
   }
 
 class Europe extends Combatant {
