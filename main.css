@@ -6,19 +6,33 @@ header {
   width: 100%;
   height: 500px;
   border: 1px solid black; }
-  .main-container .ninjas {
+  .main-container .knightsvsninjas {
+    background-image: url("dojo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 87%;
+    /*padding-bottom: 40%;
+    padding-right: 90%;*/
     float: right;
     display: inline-block;
-    width: 49%;
+    width: 100%;
     height: 100%;
-    background-color: red; }
+    background-color: black; }
   .main-container .knights {
     display: inline-block;
     width: 49%;
     height: 100%;
-    background-color: blue; }
+   }
 
 .score {
   text-align: center;
   background-color: yellow;
   width: 100%; }
+
+  .knight{
+  width: 45%;
+  }
+  .ninja{
+    width: 23%;
+padding-bottom: 11%;
+  }
