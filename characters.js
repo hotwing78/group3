@@ -67,7 +67,7 @@ var samurai = new Japan({
     Evasion: 8,
     Accuracy: 2,
 });
-var assasin = new Japan({
+var assassin = new Japan({
     Name: "Assasin",
     Damage: 15,
     Health: 100,
