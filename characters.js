@@ -10,20 +10,28 @@ class Combatant {
         this.Health -= enemy.Damage;
         $(`.${enemy.Name}Health`).html(`${enemy.Health}`);
         $('.knightHealth').html(`${this.Health}`);
-}
-}
+    }
+  }
 }
 class Europe extends Combatant {
   constructor(opts) {
     super(opts)
     this.Block= opts.Block || 0;
+  }
 }
-}
+class Japan extends Combatant {
+  constructor(opts) {
+    super(opts)
+    this.Evade = opts.Evade || 0;
+    }
+  }
 
 
-var samurai = new Combatant({ Name:"Samurai", Damage:12,Health:100,});
-var assasin= new Combatant({ Name:"Assasin", Damage:15,Health:100,});
-var shogun= new Combatant({ Name:"Shogun", Damage:25, Health:100,});
+
+
+var samurai = new Japan({ Name:"Samurai", Damage:12,Health:100, Evade: 0,});
+var assasin= new Japan({ Name:"Assasin", Damage:15,Health:100, Evade: 0,});
+var shogun= new Japan({ Name:"Shogun", Damage:25, Health:100, Evade: 0,});
 var squire=new Europe({Name:"Squire",Damage:12,Health:100,Block:0,});
 var calvary=new Europe({ Name:"Calvary", Damage:15, Health:100,Block:0,});
 var knight=new Europe({ Name:"Knight", Damage:25, Health:100, Block:0,})
