@@ -9,6 +9,7 @@ body  {
   background-position: center;
 }
 .main-container {
+  box-shadow: 10px 10px 5px #888888;
   border: 2px solid black;
   width: 67%;
   height: 500px;
@@ -27,8 +28,8 @@ body  {
     width: 100%;
     height: 100%;
     background-color: black; }
+
   .main-container .knights {
-    display: inline-block;
     width: 49%;
     height: 100%;
    }
@@ -39,11 +40,19 @@ body  {
   width: 100%; }
 
   .knight{
-  width: 45%;
+  width: 19%;
+  float: right;
+  padding-top: 30%;
+  padding-right: 12%;
   }
   .ninja{
     width: 23%;
-padding-bottom: 11%;
+    padding-bottom: 11%;
+    width: 23%;
+    padding-top: 21%;
+    margin-left: 0;
+    position: relative;
+    left: 19%;
   }
 .hidden {
   display: none;
@@ -53,6 +62,7 @@ padding-bottom: 11%;
 
 .introScreen {
   background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) ), url('images/knightsvsninjas.jpg');
+  box-shadow: 10px 10px 5px #888888;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 101%;
@@ -64,6 +74,8 @@ padding-bottom: 11%;
 
 .buttonContainer {
   border: 2px solid black;
+  background-color: grey ;
+  box-shadow: 10px 10px 5px #888888;
   width: 67%;
   /*height: 500px;*/
   margin-left: 15%;
