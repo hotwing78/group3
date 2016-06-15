@@ -2,6 +2,12 @@ header {
   text-align: center;
   background-color: gray; }
 
+body  {
+  background-color: #FCFBE3;
+  background-repeat: no-repeat;
+  background-size: 125%;
+  background-position: center;
+}
 .main-container {
   width: 100%;
   height: 500px;
@@ -39,3 +45,28 @@ padding-bottom: 11%;
 .hidden {
   display: none;
 }
+
+
+
+.introScreen {
+  background-image: url("knightsvsninjas.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 101%;
+  border: 2px solid black;
+  width: 67%;
+  height: 500px;
+  margin-left: 15%;
+}
+
+.buttonContainer {
+  border: 2px solid black;
+  width: 67%;
+  /*height: 500px;*/
+  margin-left: 15%;
+  margin-top: 16px;
+  height: 200px;
+}
+
+
+@-webkit-keyframes{}
