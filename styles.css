@@ -2,18 +2,14 @@ header {
   text-align: center;
   background-color: gray; }
 
-body  {
-  background-color: #FCFBE3;
-  background-repeat: no-repeat;
-  background-size: 125%;
-  background-position: center;
-}
 .main-container {
   width: 100%;
   height: 500px;
   border: 1px solid black; }
+  .main-container .buttonContainer {
+    border: 1px solid black; }
   .main-container .knightsvsninjas {
-    background-image: url("dojo.png");
+    background-image: url("images/dojo.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 87%;
@@ -22,66 +18,31 @@ body  {
     width: 100%;
     height: 100%;
     background-color: black; }
-  .main-container .knights {
-    display: inline-block;
-    width: 49%;
-    height: 100%;
-   }
+    .main-container .knightsvsninjas .ninjas {
+      float: right;
+      display: inline-block;
+      width: 49%;
+      height: 100%;
+      background-color: red; }
+    .main-container .knightsvsninjas .knights {
+      display: inline-block;
+      width: 49%;
+      height: 100%;
+      background-color: blue; }
 
 .score {
   text-align: center;
   background-color: yellow;
   width: 100%; }
 
-  .knight{
-  width: 45%;
-  }
-  .ninja{
-    width: 23%;
-padding-bottom: 11%;
-  }
-.hidden {
-  display: none;
-}
+#stats {
+  background-color: red;
+  width: 20%;
+  display: inline-block; }
 
-
-
-.introScreen {
-  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) ), url('images/knightsvsninjas.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 101%;
-  border: 2px solid black;
-  width: 67%;
-  height: 500px;
-  margin-left: 15%;
-}
-
-.buttonContainer {
-  border: 2px solid black;
-  width: 67%;
-  /*height: 500px;*/
-  margin-left: 15%;
-  margin-top: 16px;
-  height: 200px;
-}
-
-.insertCoin{
-  font-family: 'Press Start 2P', cursive;
+#stats li {
   text-align: center;
-  color: white;
-  margin-top: 17%;
-  font-size: 92px;
-}
-.insertCoin2{
-  font-family: 'Press Start 2P', cursive;
-  text-align: center;
-  color: white;
-  margin-top: 17%;
-  font-size: 92px;
-  
-}
-
-
-
-@-webkit-keyframes{}
+  border: 1px solid #000;
+  list-style-type: none;
+  width: 100%;
+  background-color: gold; }
