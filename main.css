@@ -36,3 +36,6 @@ header {
     width: 23%;
 padding-bottom: 11%;
   }
+.hidden {
+  display: none;
+}
