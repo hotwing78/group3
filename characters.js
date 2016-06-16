@@ -14,7 +14,7 @@ class Combatant {
 
         console.log(swing, dodge)
         if (swing >= dodge) {
-          enemy.Health -= this.Damage - Math.floor(Math.random() * this.Damage);
+          enemy.Health -= this.Damage - Math.floor(Math.random() * this.Damage );
             // console.log(this.Health -= enemy.Damage)
         } else {
             console.log("FUUUUUUUUUUUUUUUUUUUUUUUCK")
@@ -68,7 +68,7 @@ var samurai = new Japan({
     Evasion: 8,
     Accuracy: 2,
 });
-var assasin = new Japan({
+var assassin = new Japan({
     Name: "Assasin",
     Damage: 15,
     Health: 100,
