@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 $('#Name').append(`${knight.Name}`)
 $('#Health').append(`${knight.Health}`)
 $('#Attack').append(`${knight.Damage}`)
@@ -61,7 +61,7 @@ $('#Evade').append(`${knight.Evasion}`)
 //         killEnemy(randEnemy);
 //     }
 // });
-=======
+
 $('#mainAttack').on('click',function(){
   knight.attackMain(shogun);
 });
@@ -99,4 +99,3 @@ $('.insertCoin').on('click', function(event){
    $('.introScreen').addClass('hidden');
    $('.main-container').removeClass('hidden');
  });
->>>>>>> b0377e22b274da0e2d1d7ddd4aaa1cbc0d92334d

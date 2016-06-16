@@ -14,11 +14,11 @@
         <h1></h1>
     </header>
     <div class="main-container hidden">
-      <div class="knightsvsninjas">
-         <div id="hitMessage" style="color:white">HIT MESSAGE</div>
-        <img class = "knight" src="images/stationedknight.gif" alt="" />
-        <img class = "ninja" src="images/ninja.gif" alt="" />
-      </div>
+        <div class="knightsvsninjas">
+            <div id="hitMessage" style="color:white">HIT MESSAGE</div>
+            <img class="knight" src="images/stationedknight.gif" alt="" />
+            <img class="ninja" src="images/ninja.gif" alt="" />
+        </div>
     </div>
 
     <div class="introScreen">
@@ -33,12 +33,18 @@
                 <li id="Health">health</li>
                 <li id="Attack">attack</li>
                 <li id="Evade">evade</li>
-              </ul>
-              <button id="mainAttack">Heavy Attack</button>
-              <button id="lightAttack">Light Attack</button>
-              <button id="dodge">dodge</button>
-            </div>
-          </div>
+
+            </ul>
+            <button id="mainAttack" type="button">Heavy Attack</button>
+            <button id="lightAttack" type="button">Light Attack</button>
+            <button id="dodge" type="button">dodge</button>
+        </div>
+    </div>
+
+
+    <audio class="musicplayer hidden" autoplay="" controls="">
+        <source src="gamemusic.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+    </audio>
 
     <script src="node_modules/jquery/dist/jquery.js" charset="utf-8"></script>
     <script src="weapons.js" charset="utf-8"></script>
