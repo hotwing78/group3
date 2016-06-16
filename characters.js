@@ -14,7 +14,7 @@ class Combatant {
 
         console.log(swing, dodge)
         if (swing >= dodge) {
-          enemy.Health -= this.Damage - Math.floor(Math.random() * this.Damage);
+          enemy.Health -= this.Damage - Math.floor(Math.random() * this.Damage );
             // console.log(this.Health -= enemy.Damage)
         } else {
             console.log("FUUUUUUUUUUUUUUUUUUUUUUUCK")
